@@ -90,7 +90,7 @@ Widget todaysDealsCard(int index, List<Product> todaysDealProducts,
                           : ''),
                       placeholder: AssetImage(
                           'images/placeholders/no-product-image.png'),
-                      height: 120,
+                      height: 100,  //if height is more than 120, it shows "bottom overvlow by 2.0 pixels"
                     ),
                   ),
                   Container(
